@@ -9,14 +9,14 @@
 7. Dimensionality Reduction는 왜 필요한가?
 8. Ridge와 Lasso의 공통점과 차이점? (Regularization, 규제 , Scaling)
 9. Overfitting vs. Underfitting
-10. Feature Engineering?
+10. Feature Engineering과 Feature Selection의 차이점은?
 11. 전처리(Preprocessing)의 목적과 방법? (노이즈, 이상치, 결측치)
-12. EDA(Explorary Data Analysis) : 데이터의 특성 파악(분포, 상관관계)
+12. EDA(Explorary Data Analysis)란? 데이터의 특성 파악(분포, 상관관계)
 13. 회귀에서 절편과 기울기가 의미하는 바는? 딥러닝과 어떻게 연관되는가?
 14. Activation function 함수를 사용하는 이유? Softmax, Sigmoid 함수의 차이는? 
 15. Forward propagation, Backward propagation이란?
-16. 손실함수란 무엇인가?
-17. 확률적 경사하강법 의미
+16. 손실함수란 무엇인가? 가장 많이 사용하는 손실함수 4가지 종류는?
+17. 경사하강법 의미는? (확률적 경사하강법, 배치 경사하강법, 미치 배치경사하강법)
 18. 교차검증, K-fold 교차검증의 의미와 차이
 19. 하이퍼파라미터 튜닝이란 무엇인가?
 20. CNN의 합성곱의 역활은?
@@ -31,3 +31,4 @@
 29. 부트 스트랩핑(bootstraping)이란 무엇인가?
 30. 배깅(Bagging)이란 무엇인가?
 31. 주성분 분석(PCA) 이란 무엇인가?
+32. Dense Layer란 무엇인가?    
