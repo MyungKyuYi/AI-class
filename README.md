@@ -16,7 +16,7 @@
 14. Activation function 함수를 사용하는 이유? Softmax, Sigmoid 함수의 차이는? 
 15. Forward propagation, Backward propagation이란?
 16. 손실함수란 무엇인가? 가장 많이 사용하는 손실함수 4가지 종류는?
-17. 옵티마이저(optimizer)란 무엇일까?
+17. 옵티마이저(optimizer)란 무엇일까? 옵티마이저와 손실함수의 차이점은?
 18. 경사하강법 의미는? (확률적 경사하강법, 배치 경사하강법, 미치 배치경사하강법)
 19. 교차검증, K-fold 교차검증의 의미와 차이
 20. 하이퍼파라미터 튜닝이란 무엇인가?
