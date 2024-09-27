@@ -37,3 +37,7 @@ Xception에는 Step 2 이후 Step 1을 수행
 
 원래 Inception 모듈에서는 첫 번째 연산 후 비선형성이 있으나,
 수정된 깊이별 분리형 합성곱인 Xception에서는 중간 ReLU 비선형성이 없음
+
+4. CBAM (ECCV 2018)
+
+https://ffighting.net/deep-learning-paper-review/vision-model/cbam/
