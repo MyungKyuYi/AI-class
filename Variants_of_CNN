@@ -41,6 +41,7 @@ Xception에는 Step 2 이후 Step 1을 수행
 4. CBAM (ECCV 2018)
 
 arxiv.org/pdf/1807.06521.pdf
+https://blog.naver.com/winddori2002/222057978305
 https://ffighting.net/deep-learning-paper-review/vision-model/cbam/
 
 CBAM(Channel and Spatial Attention Module)은 CNN(Convolutional Neural Networks)에서 성능을 향상시키기 위해 제안된 어텐션 모듈
