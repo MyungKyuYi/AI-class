@@ -12,5 +12,8 @@ CNN에서는 각 채널이 특정 정보를 담고 있지만 모든 정보가 �
 
 SE는 정보의 압축(Squeeze) 중요도계산 (Excitation)을 통해 성능을 향상
 
+2. GoogleNet (CVPR 2014)
 
+https://arxiv.org/abs/1409.4842
+https://www.ytimes.co.kr/news/articleView.html?idxno=7149
 
