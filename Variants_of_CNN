@@ -41,3 +41,13 @@ Xception에는 Step 2 이후 Step 1을 수행
 4. CBAM (ECCV 2018)
 
 https://ffighting.net/deep-learning-paper-review/vision-model/cbam/
+
+CBAM(Channel and Spatial Attention Module)은 CNN(Convolutional Neural Networks)에서 성능을 향상시키기 위해 제안된 어텐션 모듈입니다. CBAM은 입력 피처 맵에서 중요한 정보를 강조하고 덜 중요한 정보를 억제함으로써, 네트워크가 더 중요한 특성에 집중할 수 있도록 돕습니다. CBAM은 **채널 어텐션(Channel Attention)**과 **공간 어텐션(Spatial Attention)**의 두 가지 어텐션 메커니즘을 결합한 구조입니다.
+
+Channel Attention Module : 먼저 입력 피처 맵에 대해 채널별로 중요한 정보를 학습하고, 채널별로 가중치를 적용
+Spatial Attention Module : 채널 어텐션이 적용된 피처 맵에 대해 공간적으로 중요한 영역을 학습하여, 위치별로 다른 가중치를 적용
+
+Global Average Pooling(정보를 압축) + Global Max Pooling(가장 의미 있는 정보 추출)
+
+
+
