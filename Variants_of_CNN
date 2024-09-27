@@ -17,3 +17,23 @@ SE는 정보의 압축(Squeeze) 중요도계산 (Excitation)을 통해 성능을
 https://arxiv.org/abs/1409.4842
 https://www.ytimes.co.kr/news/articleView.html?idxno=7149
 
+3. Xception (CVPR 2017)
+
+https://arxiv.org/abs/1610.02357
+https://towardsdatascience.com/review-xception-with-depthwise-separable-convolution-better-than-inception-v3-image-dc967dd42568
+
+Depthwise Separable Convolution 
+
+Step 1: Depthwise Convolution
+Convolution에서는 모든 입력 채널을 고려하여 하나의 필터를 적용하지만, 
+Depthwise Convolution에서는 각 채널마다 별도의 필터를 사용. 
+이로 인해 채널 간의 상호작용은 고려되지 않고 각 채널은 독립적으로 처리
+
+Step 2: Pointwise Convolution
+Depthwise Convolution을 통해 각 채널별로 처리된 출력을 다시 결합하기 위해 1x1 Convolution을 적용
+이 과정에서 채널 간의 상호작용을 고려하며, Depthwise Convolution으로 축소된 연산 비용을 보충
+
+Xception에는 Step 2 이후 Step 1을 수행
+
+원래 Inception 모듈에서는 첫 번째 연산 후 비선형성이 있으나,
+수정된 깊이별 분리형 합성곱인 Xception에서는 중간 ReLU 비선형성이 없음
