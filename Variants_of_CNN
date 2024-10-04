@@ -6,9 +6,9 @@ https://ffighting.net/deep-learning-paper-review/vision-model/senet/
 https://arxiv.org/abs/1709.01507
 https://github.com/hujie-frank/SENet
 
-CNN에서는 각 채널이 특정 정보를 담고 있지만 모든 정보가 풀고자 하는 문제와 관련이 있는 것은 아님.
-따라서, 중요한 정보가 담긴 채널에만 집중하고 나머지는 무시하는 기능이 필요함
-하지만, Convolution, Activation, Pooling을 거치며 일부 중요한 정보가 더 두드러지긴 하지만 이를 명확하게 조정하는 것은 불가능함
+CNN에서는 각 채널이 특정 정보를 담고 있지만 모든 정보가 중요한 것은 아님
+따라서, 중요한 정보가 담긴 채널에만 집중하고 나머지는 무시하는 기능이 필요
+Convolution, Activation, Pooling을 거치며 일부 중요한 정보가 더 두드러지긴 하지만, 이를 명확하게 조정하는 것은 불가능함
 
 SE는 정보의 압축(Squeeze) 중요도계산 (Excitation)을 통해 성능을 향상
 
