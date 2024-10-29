@@ -1,0 +1,33 @@
+VAE
+
+1. Likelihood (우도)란 무엇인가?
+
+https://youtu.be/XepXtl9YKwc?si=chiDUt46Fl3Z84a7
+https://jjangjjong.tistory.com/41
+https://data-scientist-brian-kim.tistory.com/91
+
+2. VAE
+
+https://medium.com/@hugmanskj/hands-on-understanding-and-implementing-variational-autoencoders-1013b658d216
+https://medium.com/@hugmanskj/autoencoder-%EC%99%80-variational-autoencoder%EC%9D%98-%EC%A7%81%EA%B4%80%EC%A0%81%EC%9D%B8-%EC%9D%B4%ED%95%B4-171b3968f20b
+https://hugrypiggykim.com/2018/09/07/variational-autoencoder%EC%99%80-elboevidence-lower-bound/
+
+3.  변분 추론(Variational Inference)
+
+https://medium.com/@david.daeschler/the-amazing-vae-part-2-06927b916363
+https://medium.com/@rukshanpramoditha/a-comprehensive-guide-to-variational-autoencoders-vaes-708be64e3304
+
+- 실제 데이터 분포 p(x)에 가장 가까운 데이터를 생성하는 모델의 매개변수를 학습하고 싶음
+- 베이즈 정리를 사용하여 posterior probability p(Θ|X)를 계산해야 함
+- 하지만, 수학적 난해성 때문에 p(Θ|X)를 직접 계산할 수 없음
+- 따라서, 복잡한 확률 분포로 근사값을 찾음
+- 이를 위해서, 잠재 공간의 분포가 정규 분포(e.g Gaussian, Bernulli)를 따를 것이라고 가정하고 잠재 변수 𝑧를 샘플링
+(잠재 공간을 점 추정하는 것이 아니라 공간을 샘플링,  Z ≈ N(µx, σx))
+- 직접 샘플링하면 미분이 불가능해지므로, 재파라미터화 트릭(Z = μ + σϵ)형태로 변환
+- ϵ은 표준 정규 분포 N(0,1)로부터 샘플링된 노이즈
+- 샘플링된 z는 디코더로 전달되어 원본 데이터 x와 유사한 데이터를 생성하는 데 사용
+- VAE의 목적 함수는 Evidence Lower BOund(ELBO)을 최대화
+- ELBO는 재구성 오차와 KL 발산의 합으로 구성
+- 재구성 오차는 입력 데이터와 재구성된 데이터 간의 차이를 최소화
+- KL 발산(Kullback-Leibler Divergence)은 두 확률 분포 간의 차이를 측정하는 지표
+- VAE에서 KL 발산은 <인코더가 학습한 잠재 변수의 분포>와 모델이 원하는 목표 분포(일반적으로 표준 정규 분포) N(0,1)) 사이의 차이를 최소화하는 데 사용
