@@ -1,6 +1,13 @@
-VAE
 
-1. Likelihood (우도)란 무엇인가?
+[VAE]
+
+0. 사전지식
+- https://medium.com/@flatorien/ai-%EC%8B%9C%EB%8C%80-%ED%86%B5%EA%B3%84-%EC%82%AC%EC%9A%A9%EC%9E%90%EC%9D%98-%EC%97%AD%ED%95%A0-%EC%9E%91%EC%84%B1-1fb987c5e94f
+- https://medium.com/@flatorien/variational-auto-encoder-%EC%99%80-latent-layer%EC%9D%98-%EB%B6%84%ED%8F%AC-%EA%B3%A0%EC%A0%95-d4e2ac5db4d8
+- https://medium.com/@flatorien/vae%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-anomaly-detection-c630251f4f28
+
+  
+3. Likelihood (우도)란 무엇인가?
 
 https://youtu.be/XepXtl9YKwc?si=chiDUt46Fl3Z84a7
 https://jjangjjong.tistory.com/41
