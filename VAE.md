@@ -31,6 +31,8 @@ https://medium.com/@david.daeschler/the-amazing-vae-part-2-06927b916363
 
 https://medium.com/@rukshanpramoditha/a-comprehensive-guide-to-variational-autoencoders-vaes-708be64e3304
 
+https://towardsdatascience.com/understanding-variational-autoencoders-vaes-f70510919f73
+
 - 실제 데이터 분포 p(x)에 가장 가까운 데이터를 생성하는 모델의 매개변수를 학습하고 싶음
 - 베이즈 정리를 사용하여 posterior probability p(Θ|X)를 계산해야 함
 - 하지만, 수학적 난해성 때문에 p(Θ|X)를 직접 계산할 수 없음
