@@ -1,4 +1,5 @@
 확률 분포와 GAN
+
 https://youtu.be/AVvlDmhHgC4?si=sjzkdidTyzoHuQAi
 
 GAN의 개념 및 변형
