@@ -3,7 +3,9 @@
 
 0. 사전지식
 - https://medium.com/@flatorien/ai-%EC%8B%9C%EB%8C%80-%ED%86%B5%EA%B3%84-%EC%82%AC%EC%9A%A9%EC%9E%90%EC%9D%98-%EC%97%AD%ED%95%A0-%EC%9E%91%EC%84%B1-1fb987c5e94f
+- 
 - https://medium.com/@flatorien/variational-auto-encoder-%EC%99%80-latent-layer%EC%9D%98-%EB%B6%84%ED%8F%AC-%EA%B3%A0%EC%A0%95-d4e2ac5db4d8
+- 
 - https://medium.com/@flatorien/vae%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-anomaly-detection-c630251f4f28
 
   
@@ -16,12 +18,17 @@ https://data-scientist-brian-kim.tistory.com/91
 2. VAE
 
 https://medium.com/@hugmanskj/hands-on-understanding-and-implementing-variational-autoencoders-1013b658d216
+
 https://medium.com/@hugmanskj/autoencoder-%EC%99%80-variational-autoencoder%EC%9D%98-%EC%A7%81%EA%B4%80%EC%A0%81%EC%9D%B8-%EC%9D%B4%ED%95%B4-171b3968f20b
+
 https://hugrypiggykim.com/2018/09/07/variational-autoencoder%EC%99%80-elboevidence-lower-bound/
+
+https://ijdykeman.github.io/ml/2016/12/21/cvae.html
 
 3.  변분 추론(Variational Inference)
 
 https://medium.com/@david.daeschler/the-amazing-vae-part-2-06927b916363
+
 https://medium.com/@rukshanpramoditha/a-comprehensive-guide-to-variational-autoencoders-vaes-708be64e3304
 
 - 실제 데이터 분포 p(x)에 가장 가까운 데이터를 생성하는 모델의 매개변수를 학습하고 싶음
