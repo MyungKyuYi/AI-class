@@ -14,6 +14,7 @@
 https://youtu.be/XepXtl9YKwc?si=chiDUt46Fl3Z84a7
 https://jjangjjong.tistory.com/41
 https://data-scientist-brian-kim.tistory.com/91
+https://lcyking.tistory.com/entry/%EB%85%BC%EB%AC%B8%EB%A6%AC%EB%B7%B0-VAEVariational-Auto-Encoder
 
 2. VAE
 
