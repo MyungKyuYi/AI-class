@@ -32,4 +32,16 @@
 30. 부트 스트랩핑(bootstraping)이란 무엇인가?
 31. 배깅(Bagging)이란 무엇인가?
 32. 주성분 분석(PCA) 이란 무엇인가?
-33. Dense Layer란 무엇인가?    
+33. Dense Layer란 무엇인가?
+
+
+ Advanced AI를 위한 FAQ
+
+1. Inception 모듈은 무엇인가? 장점은?
+2. 1 x 1 convolution의 역활?
+3. Skip Connnection이란? 학습할때 장점? Skip Connnection이 해결하는 문제점?
+4. SE block에서 GAP의 역활은? Squeeze는 어떻게? Excitation은 어떻게 작동하나?
+5. Depthwise Convolution 이란?
+6. Pointwise Convolution 이란?
+7. CBAM에서 Channel Attention과 Spatial Attention은 어떻게 추출하는가? 두개의 Attention을 사용함으로써 얻어지는 장점? 
+   
