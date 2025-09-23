@@ -31,10 +31,12 @@ model.summary()
 # 7) 학습
 # -------------------------------------------------
 history = model.fit(
-    train_ds,
+    X_train, y_train,
     validation_split=0.2,
-    epochs=20)
-
+    epochs=50,
+    batch_size=16,
+    verbose=1
+)
 
 y_pred = model.predict(X_test)
 
