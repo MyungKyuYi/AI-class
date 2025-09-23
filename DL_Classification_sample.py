@@ -1,3 +1,5 @@
+scaler = StandardScaler()
+X = scaler.fit_transform(X)
 
 Y = pd.get_dummies(y).values
 X = X.values
