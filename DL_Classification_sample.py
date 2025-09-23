@@ -11,14 +11,14 @@ model = models.Sequential([
     layers.Dense(64, activation="relu", input_shape=(X.shape[1],)),
     layers.Dropout(0.3),
     layers.Dense(32, activation="relu"),
-    layers.Dense(1, activation="softmax")
+    layers.Dense(Y.shape[1], activation="softmax"), activation="softmax")
 ])
 
 model.summary()
 
 model.compile(
     optimizer="adam",
-    loss="sparse_categorical_crossentropy",
+    loss="categorical_crossentropy",
     metrics=["accuracy"]
 )
 
