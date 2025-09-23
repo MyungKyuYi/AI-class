@@ -1,5 +1,5 @@
 
-from tensorflow.keras import layers
+from tensorflow.keras import layers, models
 
 scaler = StandardScaler()
 X = scaler.fit_transform(X)
