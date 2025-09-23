@@ -19,11 +19,11 @@ outputs = tf.keras.layers.Dense(1, activation="sigmoid")(x)
 model = tf.keras.Model(inputs, outputs)
 model.summary()
 
-
 model.compile(
-    optimizer=tf.keras.optimizers.Adam(learning_rate=1e-3),
-    loss="binary_crossentropy",
-    metrics=['accuracy'])
+    optimizer="adam",
+    loss="sparse_categorical_crossentropy",
+    metrics=["accuracy"]
+)
 
 model.summary()
 
