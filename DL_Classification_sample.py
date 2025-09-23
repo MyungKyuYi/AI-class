@@ -7,18 +7,13 @@ X = X.values
 from sklearn.model_selection import train_test_split
 X_train,X_test, y_train,y_test = train_test_split(X,Y,test_size=0.2,random_state=0) 
 
-# -------------------------------------------------
-# 5) 모델 정의 (작고 탄탄한 MLP)
-# -------------------------------------------------
-inputs = tf.keras.Input(shape=(X_train.shape[1],))
-x = tf.keras.layers.Dense(64)(inputs)
-x = tf.keras.layers.ReLU()(x)
+model = models.Sequential([
+    layers.Dense(64, activation="relu", input_shape=(X.shape[1],)),
+    layers.Dropout(0.3),
+    layers.Dense(32, activation="relu"),
+    layers.Dense(1, activation="softmax")
+])
 
-x = tf.keras.layers.Dense(32)(x)
-x = tf.keras.layers.ReLU()(x)
-
-outputs = tf.keras.layers.Dense(1, activation="sigmoid")(x)
-model = tf.keras.Model(inputs, outputs)
 model.summary()
 
 model.compile(
