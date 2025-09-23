@@ -52,8 +52,8 @@ y_pred_class = np.argmax(y_pred,axis=1)
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-loss = model_history.history['loss']
-val_loss =model_history.history['val_loss']
+loss = history.history['loss']
+val_loss history.history['val_loss']
 epochs = range(1, len(loss) + 1)
 plt.plot(epochs, loss, 'y', label='Training loss')
 plt.plot(epochs, val_loss, 'r', label='Validation loss')
@@ -63,8 +63,8 @@ plt.ylabel('Loss')
 plt.legend()
 plt.show()
 
-acc = model_history.history['accuracy']
-val_acc =model_history.history['val_accuracy']
+acc = history.history['accuracy']
+val_acc = history.history['val_accuracy']
 plt.plot(epochs, acc, 'y', label='Training acc')
 plt.plot(epochs, val_acc, 'r', label='Validation acc')
 plt.title('Training and validation accuracy')
