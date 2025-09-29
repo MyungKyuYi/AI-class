@@ -91,6 +91,9 @@
 
 # 인공지능 입문을 위한 FAQ (딥러닝, 정리중)
 
+29. 손실함수와 gradient 관계?
+[https://chatgpt.com/s/t_68da88b035688191989bd0b96cf59952]
+
 27. Activation function 함수를 사용하는 이유?
 [https://chatgpt.com/s/t_68d9e0fe77cc8191912bc3b663e8eb20]
 
