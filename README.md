@@ -89,7 +89,7 @@
 28. 인공지능에서 왜 Bias는 해결할 수 없는 난제인가?
 [https://chatgpt.com/s/t_68d9e846fbd08191af09a710b7b4f3ce]   
 
-# 인공지능 입문을 위한 FAQ (딥러닝)
+# 인공지능 입문을 위한 FAQ (딥러닝, 정리중)
 
 27. Activation function 함수를 사용하는 이유?
 [https://chatgpt.com/s/t_68d9e0fe77cc8191912bc3b663e8eb20]
@@ -117,7 +117,9 @@
 
 41. 주성분 분석(PCA) 이란 무엇인가?
 42. Dense Layer란 무엇인가?
-
+드롭아웃(Dropout)이란 무엇인가?
+전이학습(Transfer Learning)이란? 파인튜닝(fine-tunning)과는 어떻게 다른가?
+트랜스포머의 셀프어텐션이란?
 
  Advanced AI를 위한 FAQ
 
