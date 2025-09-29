@@ -1,4 +1,4 @@
-#인공지능 기초를 위한 FAQ
+# 인공지능 입문을 위한 FAQ (머신러닝)
 
 1. 인공지능에서 지능에 해당하는 기능은 무엇인가?
 [https://chatgpt.com/s/t_68d9d955d81481918337baaf84dc786c]
@@ -54,23 +54,61 @@
 17. 선형회귀와 로지스틱 회귀의 차이점은?  
 [https://chatgpt.com/s/t_68d9dfbfefa0819196a155a4bb961ace]
 
-# 딥러닝
+18. 경사하강법이란?
+[https://chatgpt.com/s/t_68d9e0ce01e481918f78e7bed97010a5]
 
-23. Activation function 함수를 사용하는 이유? Softmax, Sigmoid 함수의 차이는?
-     
-25. Forward propagation, Backward propagation이란?
-26. 손실함수란 무엇인가? 가장 많이 사용하는 손실함수 4가지 종류는?
-27. 옵티마이저(optimizer)란 무엇일까? 옵티마이저와 손실함수의 차이점은?
+19. 데이터 불균형이 미치는 영향
+[https://chatgpt.com/s/t_68d9e1ba13108191b1b2e31c2eab64da]
 
-29. 교차검증, K-fold 교차검증의 의미와 차이
-30. 하이퍼파라미터 튜닝이란 무엇인가?
-31. CNN의 합성곱의 역활은?
-32. CNN의 풀링층의 역활은?
-33. CNN의 Dense Layer의 역활은?
-34. CNN의 stride, filter의 역활? 필터의 가중치는 어떻게 결정되는가?
-35. RNN을 사용하는 이유와 한계점은?
-36. LSTM을 사용하는 이유와 한계점은?
-37. GRU을 사용하는 이유와 차별성은?
+20. 훈련과 테스트 데이터로 나누는 까닭은? 일반화란 무엇인가?
+[https://chatgpt.com/s/t_68d9e1f6ab988191b3bae40d7752f7af]
+
+21. 교차검증(Cross Validation)이란?
+[https://chatgpt.com/s/t_68d9e28273cc8191a31c90b85ab12dff]
+
+22. 평가 지표(Evaluation Metrics) 종류와 차이점은?
+[https://chatgpt.com/s/t_68d9e2ae25988191adb06253d78f68e3]
+[https://chatgpt.com/s/t_68d9e2da379081918198bce1665af44c]
+[https://chatgpt.com/s/t_68d9e31d9a8c81918ca190997977a819]
+
+23. Accuracy말고 F1 을 사용하는 이유?
+[https://chatgpt.com/s/t_68d9e3481ce88191bd267e31549966c8]
+
+24. 차원 축소(Dimensionality Reduction) 기법은 무엇인가?
+[https://chatgpt.com/s/t_68d9e3b180e0819199abf5b593bb2237]
+
+25. KNN, K-means 차이점은?
+[https://chatgpt.com/s/t_68d9e401bc7081918d33a55efff99afc]
+    
+26. 하이퍼파라미터(Hyperparameter)란? 하이퍼파라미터 튜닝이란?
+[https://chatgpt.com/s/t_68d9e44499188191a5925b89316fda9d]
+
+
+# 인공지능 입문을 위한 FAQ (딥러닝)
+
+27. Activation function 함수를 사용하는 이유?
+[https://chatgpt.com/s/t_68d9e0fe77cc8191912bc3b663e8eb20]
+
+28. Softmax 함수란?
+[https://chatgpt.com/s/t_68d9e15487208191871f8ac09ca79ce7]
+
+29. Gradient Vanishing / Exploding 문제란?\
+[https://chatgpt.com/s/t_68d9e472b9508191b32cfbf2724e57fa]
+[https://chatgpt.com/s/t_68d9e4a095d88191bd03597b35e6d28e]
+
+30. Forward propagation, Backward propagation이란?    
+29. 손실함수란 무엇인가? 가장 많이 사용하는 손실함수 4가지 종류는?
+30. 옵티마이저(optimizer)란 무엇일까? 옵티마이저와 손실함수의 차이점은?
+
+31. 교차검증, K-fold 교차검증의 의미와 차이
+32. 하이퍼파라미터 튜닝이란 무엇인가?
+33. CNN의 합성곱의 역활은?
+34. CNN의 풀링층의 역활은?
+35. CNN의 Dense Layer의 역활은?
+36. CNN의 stride, filter의 역활? 필터의 가중치는 어떻게 결정되는가?
+37. RNN을 사용하는 이유와 한계점은?
+38. LSTM을 사용하는 이유와 한계점은?
+39. GRU을 사용하는 이유와 차별성은?
 
 41. 주성분 분석(PCA) 이란 무엇인가?
 42. Dense Layer란 무엇인가?
