@@ -1,69 +1,76 @@
-인공지능 기초를 위한 FAQ
+#인공지능 기초를 위한 FAQ
 
 1. 인공지능에서 지능에 해당하는 기능은 무엇인가?
-정답 [https://chatgpt.com/s/t_68d9d955d81481918337baaf84dc786c]
+[https://chatgpt.com/s/t_68d9d955d81481918337baaf84dc786c]
 
 2. 인공지능의 종류 3가지에 대해서 설명하시오 (지도학습, 반지도학습, 강화학습)
-정답 [https://chatgpt.com/share/68d9d984-5af4-800d-b9a7-783136208849]
+[https://chatgpt.com/share/68d9d984-5af4-800d-b9a7-783136208849]
 
 3. 전통적인 프로그래밍 방법과 인공지능 프로그램의 차이점은 무엇인가?
-정답 [https://chatgpt.com/s/t_68d9d9c08c748191bb82eb4d676350f2]
+[https://chatgpt.com/s/t_68d9d9c08c748191bb82eb4d676350f2]
    
-5. 딥러닝과 머신러닝의 차이점은 무엇인가?
-https://chatgpt.com/s/t_68d9da065a9c81918dc03fa65524f936
+4. 딥러닝과 머신러닝의 차이점은 무엇인가?
+[https://chatgpt.com/s/t_68d9da065a9c81918dc03fa65524f936]
    
-6. Classification과 Regression의 주된 차이점은?
+5. Classification과 Regression의 주된 차이점은?
 [https://chatgpt.com/s/t_68d9da4123088191b32ad3b84cfbb658]
    
-7. 머신러닝에서 차원의 저주(curse of dimensionality)란?
+6. 머신러닝에서 차원의 저주(curse of dimensionality)란?
 [https://chatgpt.com/s/t_68d9da9a41208191bc8dbe2b85f9e887]
 
-8. 규제와 스케일링의 차이점? 각각의 목적은?
+7. 규제와 스케일링의 차이점? 각각의 목적은?
 [https://chatgpt.com/s/t_68d9dba61268819195ac20cd6debd4e6]
 
-9. Overfitting vs. Underfitting 목적과 차이?
+8. Overfitting vs. Underfitting 목적과 차이?
 [https://chatgpt.com/s/t_68d9dbdaa13081918498835ddb0ac925]
 [https://chatgpt.com/s/t_68d9dbfb974c81918457081bb0c5bace]
     
-10. Feature Engineering과 Feature Selection의 차이점은?
+9. Feature Engineering과 Feature Selection의 차이점은?
 [https://chatgpt.com/s/t_68d9dc2f3f448191b423dcd56e06ac55]
 
-11. 전처리(Preprocessing)의 목적과 방법? (노이즈, 이상치, 결측치)
+10. 전처리(Preprocessing)의 목적과 방법? (노이즈, 이상치, 결측치)
 [https://chatgpt.com/s/t_68d9dc5cab9c8191912e77b66f486638]
 
-12. EDA(Explorary Data Analysis)란? 데이터의 특성 파악(분포, 상관관계)
+11. EDA(Explorary Data Analysis)란? 데이터의 특성 파악(분포, 상관관계)
 [https://chatgpt.com/s/t_68d9dc7d51848191a60c50430f0ef2c1]
 
-13. 회귀에서 절편과 기울기가 의미하는 바는? 딥러닝과 어떻게 연관되는가?
+12. 회귀에서 절편과 기울기가 의미하는 바는? 딥러닝과 어떻게 연관되는가?
 [https://chatgpt.com/s/t_68d9dd48bfd0819198861efcc84e6efd]
 [https://chatgpt.com/s/t_68d9dcab224c8191a3d547a39353f103]
 
+13. 결정트리에서  불순도(Impurity) – 지니 계수(Gini Index)란 무엇인가? 역활은?
+[https://chatgpt.com/s/t_68d9de685b108191abb383ddcf13edad]
 
-
-14. 결정트리에서  불순도(Impurity) – 지니 계수(Gini Index)란 무엇인가?
-
+14. 서포트 벡터머신, 마신, 결정경계란? SVM 원리?
+[https://chatgpt.com/s/t_68d9dea469888191a453b7d7aef428c8]
 
 15. 앙상블이란 무엇인가?
+[https://chatgpt.com/s/t_68d9dedde600819191f9dd0a0b9c85f5]
 
 16. 부트 스트랩핑(bootstraping)이란 무엇인가?
+[https://chatgpt.com/s/t_68d9df331ae48191a980824783e10da7]
+[https://chatgpt.com/s/t_68d9df7cc62c8191a749a80817a6f894]
 
-17. 배깅(Bagging)이란 무엇인가?
+17. 선형회귀와 로지스틱 회귀의 차이점은?  
+[https://chatgpt.com/s/t_68d9dfbfefa0819196a155a4bb961ace]
 
+# 딥러닝
 
-23. Activation function 함수를 사용하는 이유? Softmax, Sigmoid 함수의 차이는? 
-24. Forward propagation, Backward propagation이란?
-25. 손실함수란 무엇인가? 가장 많이 사용하는 손실함수 4가지 종류는?
-26. 옵티마이저(optimizer)란 무엇일까? 옵티마이저와 손실함수의 차이점은?
-27. 경사하강법 의미는? (확률적 경사하강법, 배치 경사하강법, 미치 배치경사하강법)
-28. 교차검증, K-fold 교차검증의 의미와 차이
-29. 하이퍼파라미터 튜닝이란 무엇인가?
-30. CNN의 합성곱의 역활은?
-31. CNN의 풀링층의 역활은?
-32. CNN의 Dense Layer의 역활은?
-33. CNN의 stride, filter의 역활? 필터의 가중치는 어떻게 결정되는가?
-34. RNN을 사용하는 이유와 한계점은?
-35. LSTM을 사용하는 이유와 한계점은?
-36. GRU을 사용하는 이유와 차별성은?
+23. Activation function 함수를 사용하는 이유? Softmax, Sigmoid 함수의 차이는?
+     
+25. Forward propagation, Backward propagation이란?
+26. 손실함수란 무엇인가? 가장 많이 사용하는 손실함수 4가지 종류는?
+27. 옵티마이저(optimizer)란 무엇일까? 옵티마이저와 손실함수의 차이점은?
+
+29. 교차검증, K-fold 교차검증의 의미와 차이
+30. 하이퍼파라미터 튜닝이란 무엇인가?
+31. CNN의 합성곱의 역활은?
+32. CNN의 풀링층의 역활은?
+33. CNN의 Dense Layer의 역활은?
+34. CNN의 stride, filter의 역활? 필터의 가중치는 어떻게 결정되는가?
+35. RNN을 사용하는 이유와 한계점은?
+36. LSTM을 사용하는 이유와 한계점은?
+37. GRU을 사용하는 이유와 차별성은?
 
 41. 주성분 분석(PCA) 이란 무엇인가?
 42. Dense Layer란 무엇인가?
