@@ -83,6 +83,11 @@
 26. 하이퍼파라미터(Hyperparameter)란? 하이퍼파라미터 튜닝이란?
 [https://chatgpt.com/s/t_68d9e44499188191a5925b89316fda9d]
 
+27. 머신러닝에서는 왜 데이터 확보가 중요한 것인가?
+[https://chatgpt.com/s/t_68d9e8092eac8191b8b0beac17264048]
+
+28. 인공지능에서 왜 Bias는 해결할 수 없는 난제인가?
+[https://chatgpt.com/s/t_68d9e846fbd08191af09a710b7b4f3ce]   
 
 # 인공지능 입문을 위한 FAQ (딥러닝)
 
