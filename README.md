@@ -110,16 +110,23 @@
 
 31. 교차검증, K-fold 교차검증의 의미와 차이
 32. 하이퍼파라미터 튜닝이란 무엇인가?
-33. CNN의 합성곱의 역활은?
-34. CNN의 풀링층의 역활은?
-35. CNN의 Dense Layer의 역활은?
-36. CNN의 stride, filter의 역활? 필터의 가중치는 어떻게 결정되는가?
+
+1. CNN과 Dense layer의 차이점?
+2. CNN에서 합성곱 연산의 목적은?
+3. CNN에서 필터의 가중치는 어떻게 결정되는가?
+4. Stride, Padding의 역활?
+5. CNN에서 합성곱 연산은 어떻게 이루어지는가?
+6. CNN의 풀링 계층의 역활 2가지?
+7. Max Pooling vs. Average Pooling 차이점과 역활?
+8. 필터의 값은 언제 최적화 되는가?
+9. CNN에서 shape 계산은 어떻게 되는가?
+
 37. RNN을 사용하는 이유와 한계점은?
 38. LSTM을 사용하는 이유와 한계점은?
 39. GRU을 사용하는 이유와 차별성은?
 
-41. 주성분 분석(PCA) 이란 무엇인가?
-42. Dense Layer란 무엇인가?
+40. 주성분 분석(PCA) 이란 무엇인가?
+41. Dense Layer란 무엇인가?
 드롭아웃(Dropout)이란 무엇인가?
 전이학습(Transfer Learning)이란? 파인튜닝(fine-tunning)과는 어떻게 다른가?
 트랜스포머의 셀프어텐션이란?
