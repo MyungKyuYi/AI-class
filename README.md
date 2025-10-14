@@ -131,6 +131,9 @@
 전이학습(Transfer Learning)이란? 파인튜닝(fine-tunning)과는 어떻게 다른가?
 트랜스포머의 셀프어텐션이란?
 
+42. Transformer의 global extraction vs. Dense layer의 global extraction
+[https://chatgpt.com/s/t_68ee5a82d0948191b26f27880f48d73e]
+
  Advanced AI를 위한 FAQ
 
 1. Inception 모듈은 무엇인가? 장점은?
