@@ -52,8 +52,18 @@ Channel Attention Module : 먼저 입력 피처 맵에 대해 채널별로 중�
 - https://zzziito.tistory.com/52
 Spatial Attention Module : 채널 어텐션이 적용된 피처 맵에 대해 공간적으로 중요한 영역을 학습하여 위치별로 다른 가중치를 적용
 - https://zzziito.tistory.com/53
-
 Global Average Pooling(정보를 압축) + Global Max Pooling(가장 의미 있는 정보 추출)
+
+5.Transformer
+
+https://medium.com/@mailpraveenreddy.c/explanation-of-q-k-v-and-attention-in-transformers-without-complex-math-5583698e374e
+https://medium.com/@maxwbuckley/is-attention-all-you-need-to-prepare-for-ml-interviews-830742f6d2ba
+
+https://medium.com/@itsaiswaryamurali/inside-ai-language-processing-encoding-tokens-and-embeddings-ac9f12a4e257
+https://medium.com/@itsaiswaryamurali/part-2-transformers-how-ai-actually-understands-context-0d589eeee2ae
+https://medium.com/towards-artificial-intelligence/understanding-positional-embeddings-in-transformers-with-intuition-and-examples-bfd88cedd4c4
+
+
 
 
 
