@@ -46,6 +46,23 @@
   * Kalman filter
   * Gaussian process
 
+[https://chatgpt.com/s/t_6a2560413bf081918130cd523bfc079c]
+[https://chatgpt.com/s/t_6a25605713088191b32f2a7381b59a4e]
+[https://chatgpt.com/s/t_6a256062ca7881918cd50e18a987cd9b]
+[https://chatgpt.com/s/t_6a25606d97a08191a1115c844c78e1a5]
+[https://chatgpt.com/s/t_6a25607aeed08191ab0ba1db192ba206]
+[https://chatgpt.com/s/t_6a25608746d08191b69443e334134d91]
+[https://chatgpt.com/s/t_6a256090ec908191b5e43f301b662a5e]
+[https://chatgpt.com/s/t_6a25609bea6c819183343bfbb897c599]
+[https://chatgpt.com/s/t_6a2560ac9a3881919a77be71a741c0ee]
+[https://chatgpt.com/s/t_6a2560b9f80c8191bea3b27ee4ea79c7]
+[https://chatgpt.com/s/t_6a2560c6be848191ae93aae2fab2002e]
+[https://chatgpt.com/s/t_6a2560d10b0481919bc26f333b1c1bdc]
+[https://chatgpt.com/s/t_6a2560dd3a6881919f662760fc365377]
+[https://chatgpt.com/s/t_6a2560eb32b88191b1b7efdb54084087]
+
+
+
 * **기본 딥러닝 모델**
 
   * MLP
