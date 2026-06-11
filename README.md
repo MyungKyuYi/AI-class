@@ -174,11 +174,11 @@
 
 4. 이미지나 feature map에서 다양한 scale의 정보를 추출해야 하는 이유는 무엇인가요?
 
-5. Inception 모듈에서 (1 \times 1) convolution은 어떤 역할을 하나요?
+5. Inception 모듈에서 1 x 1 convolution은 어떤 역할을 하나요?
 
-6. (1 \times 1) convolution이 연산량을 줄이는 원리는 무엇인가요?
+6. 1 x 1 convolution이 연산량을 줄이는 원리는 무엇인가요?
 
-7. (1 \times 1) convolution이 단순히 크기만 줄이는 것이 아니라 channel mixing을 수행한다는 말은 무슨 뜻인가요?
+7. 1 x 1 convolution이 단순히 크기만 줄이는 것이 아니라 channel mixing을 수행한다는 말은 무슨 뜻인가요?
 
 8. GoogLeNet이 깊은 네트워크임에도 파라미터 수를 상대적으로 줄일 수 있었던 이유는 무엇인가요?
 
