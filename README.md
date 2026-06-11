@@ -298,9 +298,9 @@
 
 6. Inception의 병렬 convolution과 Xception의 depthwise separable convolution은 각각 어떤 방식으로 연산 효율성을 높이나요?
 
-7. (1 \times 1) convolution은 Inception, Xception, SENet 계열에서 각각 어떤 역할로 사용될 수 있나요?
+7. 1 x 1 convolution은 Inception, Xception, SENet 계열에서 각각 어떤 역할로 사용될 수 있나요?
 
-8. Channel attention과 (1 \times 1) convolution은 모두 channel을 다룹니다. 둘의 차이는 무엇인가요?
+8. Channel attention과 1 x 1  convolution은 모두 channel을 다룹니다. 둘의 차이는 무엇인가요?
 
 9. Skip connection과 attention module은 모두 성능 향상에 기여하지만, 해결하는 문제는 어떻게 다른가요?
 
