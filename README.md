@@ -134,7 +134,9 @@
 42. Transformer의 global extraction vs. Dense layer의 global extraction
 [https://chatgpt.com/s/t_68ee5a82d0948191b26f27880f48d73e]
 
- Advanced AI를 위한 FAQ
+
+ 
+# 딥러닝 Advanced AI를 위한 FAQ
 
 
 
