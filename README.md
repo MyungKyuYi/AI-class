@@ -310,41 +310,47 @@
 
 ## 6. Transformer / CNN 변형 모델 이해 확인 질문
 
-1. CNN과 Transformer의 가장 큰 구조적 차이는 무엇인가요?
+0. Self Attention, Cross Attention, Scaled Dot-Product Attention, Multi-Head Attention 이란?
 
-2. CNN은 local receptive field를 기반으로 합니다. 이것이 의미하는 바는 무엇인가요?
+1. Positional Encoding은 어떻게 구현하나?
 
-3. Transformer의 self-attention은 CNN의 convolution과 비교했을 때 어떤 장점이 있나요?
+2. Look-ahead Mask의 사용이유?
 
-4. Vision Transformer에서 이미지를 patch로 나누는 이유는 무엇인가요?
+3. CNN과 Transformer의 가장 큰 구조적 차이는 무엇인가요?
 
-5. Patch embedding은 CNN의 convolution과 어떤 점에서 유사한가요?
+4. CNN은 local receptive field를 기반으로 합니다. 이것이 의미하는 바는 무엇인가요?
 
-6. Transformer는 왜 positional encoding이 필요한가요?
+5. Transformer의 self-attention은 CNN의 convolution과 비교했을 때 어떤 장점이 있나요?
 
-7. CNN은 위치 정보를 어떻게 자연스럽게 반영하나요?
+6. Vision Transformer에서 이미지를 patch로 나누는 이유는 무엇인가요?
 
-8. Transformer는 global dependency를 잘 포착하지만, CNN보다 부족할 수 있는 점은 무엇인가요?
+7. Patch embedding은 CNN의 convolution과 어떤 점에서 유사한가요?
 
-9. CNN-Transformer hybrid 모델이 등장한 이유는 무엇인가요?
+8. Transformer는 왜 positional encoding이 필요한가요?
 
-10. CNN과 Transformer를 결합하면 어떤 장점을 기대할 수 있나요?
+9. CNN은 위치 정보를 어떻게 자연스럽게 반영하나요?
 
-11. CNN backbone 뒤에 Transformer encoder를 붙이는 구조는 어떤 목적을 가지나요?
+10. Transformer는 global dependency를 잘 포착하지만, CNN보다 부족할 수 있는 점은 무엇인가요?
 
-12. Transformer 기반 vision 모델에서도 convolution이나 local window attention을 사용하는 이유는 무엇인가요?
+11. CNN-Transformer hybrid 모델이 등장한 이유는 무엇인가요?
 
-13. Swin Transformer에서 window attention을 사용하는 이유는 무엇인가요?
+12. CNN과 Transformer를 결합하면 어떤 장점을 기대할 수 있나요?
 
-14. ConvNeXt는 Transformer의 설계 철학을 CNN에 반영한 모델입니다. 이런 접근이 의미하는 바는 무엇인가요?
+13. CNN backbone 뒤에 Transformer encoder를 붙이는 구조는 어떤 목적을 가지나요?
 
-15. CNN의 inductive bias란 무엇인가요?
+14. Transformer 기반 vision 모델에서도 convolution이나 local window attention을 사용하는 이유는 무엇인가요?
 
-16. Transformer는 CNN보다 inductive bias가 약하다고 말하는 이유는 무엇인가요?
+15. Swin Transformer에서 window attention을 사용하는 이유는 무엇인가요?
 
-17. 데이터가 적은 경우 CNN이 Transformer보다 유리할 수 있는 이유는 무엇인가요?
+16. ConvNeXt는 Transformer의 설계 철학을 CNN에 반영한 모델입니다. 이런 접근이 의미하는 바는 무엇인가요?
 
-18. 데이터가 충분히 큰 경우 Transformer가 강력한 성능을 보일 수 있는 이유는 무엇인가요?
+17. CNN의 inductive bias란 무엇인가요?
+
+18. Transformer는 CNN보다 inductive bias가 약하다고 말하는 이유는 무엇인가요?
+
+19. 데이터가 적은 경우 CNN이 Transformer보다 유리할 수 있는 이유는 무엇인가요?
+
+20. 데이터가 충분히 큰 경우 Transformer가 강력한 성능을 보일 수 있는 이유는 무엇인가요?
 
 ---
 
