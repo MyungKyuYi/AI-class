@@ -345,12 +345,13 @@
 16. ConvNeXt는 Transformer의 설계 철학을 CNN에 반영한 모델입니다. 이런 접근이 의미하는 바는 무엇인가요?
 
 17. CNN의 inductive bias란 무엇인가요?
+[https://chatgpt.com/s/t_6a2a4dccc5348191b7cf97beb14ed445]
 
-18. Transformer는 CNN보다 inductive bias가 약하다고 말하는 이유는 무엇인가요?
+19. Transformer는 CNN보다 inductive bias가 약하다고 말하는 이유는 무엇인가요?
 
-19. 데이터가 적은 경우 CNN이 Transformer보다 유리할 수 있는 이유는 무엇인가요?
+20. 데이터가 적은 경우 CNN이 Transformer보다 유리할 수 있는 이유는 무엇인가요?
 
-20. 데이터가 충분히 큰 경우 Transformer가 강력한 성능을 보일 수 있는 이유는 무엇인가요?
+21. 데이터가 충분히 큰 경우 Transformer가 강력한 성능을 보일 수 있는 이유는 무엇인가요?
 
 ---
 
